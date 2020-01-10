@@ -93,7 +93,7 @@ public class LoginActivity extends BaseActivity {
         }
 
         helper = new TestDBOpenHelper(LoginActivity.this,
-                "Book.db", null, 1);
+                "Book.db", null, 2);
 
         findViewById(R.id.create_db_btn).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -216,6 +216,7 @@ public class LoginActivity extends BaseActivity {
 
             }
         });
+
 
     }
 

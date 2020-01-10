@@ -29,6 +29,12 @@
                 <action android:name="com.test.activity.broadcast.OFFLINE_BROADCAST"></action>
             </intent-filter>
         </receiver>
+
+        <activity android:name="com.test.activity.TestContentProviderActivity"></activity>
+        <provider
+            android:name="com.test.activity.TestContentProvider"
+            android:authorities="com.test.activity.provider"
+            android:exported="true"></provider>
     </application>
 
 </manifest>

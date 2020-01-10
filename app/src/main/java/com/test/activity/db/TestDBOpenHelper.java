@@ -16,7 +16,8 @@ public class TestDBOpenHelper extends SQLiteOpenHelper {
                     "name text not null," +
                     "author text not null," +
                     "page integer not null," +
-                    "price float not null" +
+                    "price float not null," +
+                    "category_id integer not null" +
                     ");";
 
     private static final String CREATE_BOOK_TYPE_TABLE =
